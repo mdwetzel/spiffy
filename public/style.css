@@ -1,0 +1,35 @@
+#word-box { 
+	color:#E5DDCB;
+	font-size:2em;
+	text-align:center;
+}
+
+input[type="button"] { 
+	border: 1px solid #524656;
+	background-color: #CF4647;
+	padding: 10px;
+	font-size: 2em;
+	color: #fff;
+}
+
+body { 
+	background-color:#EB7B59;
+	margin:50px auto;
+	text-align:center;
+	width:500px;
+}
+
+ul { 
+	margin-top:20px;
+}
+
+li {
+	list-style:none;
+}
+
+header { 
+	color:#A7C5BD;
+	font-size:4em;
+	font-style:italic;
+	margin-bottom:25px;
+}

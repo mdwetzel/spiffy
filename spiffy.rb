@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 
 animals    = ['aardvark', 'anteater', 'cobra', 'lion', 'goat', 'yak', 'hammerhead', 'osprey', 'raptor']
-adjectives = ['snappy', 'lewd', 'abhorrant' 'abrasive', 'obnoxious', 'malevolent', 'ostentatious', 'tenuos', 'tedious', 'insiduous']
+adjectives = ['snappy', 'lewd', 'abhorrant', 'abrasive', 'obnoxious', 'malevolent', 'ostentatious', 'tenuos', 'tedious', 'insiduous']
 
 get '/' do
   erb :generator

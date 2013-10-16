@@ -10,11 +10,9 @@ end
 
 get '/response' do
   content_type  :json 
+  
   r = Random.new
   word = "#{adjectives[r.rand(0...adjectives.length)]} #{animals[r.rand(0...animals.length)]}"
+  
   { word: word }.to_json
-end
-
-post '/' do
-  erb :generator
 end
